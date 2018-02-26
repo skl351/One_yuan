@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/all_guess_back"
+    android:layout_height="match_parent">
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/paihangbang_topbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        lar:center_text="下注榜奖励说明"
+        lar:left_but="@mipmap/login_left">
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/xiahzu"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

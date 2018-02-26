@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/home_black">
+    <RelativeLayout
+        android:id="@+id/logreg_left"
+        android:layout_width="30dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/logreg_left_nei"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="15dp"
+            android:layout_height="25dp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="今日公告今日公告公告"
+        android:textColor="@color/white"
+        android:id="@+id/logreg_center"
+        android:layout_width="160dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/logreg_right"
+        android:layout_alignParentRight="true"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@mipmap/guizhe"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="规则"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

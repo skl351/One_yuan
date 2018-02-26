@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    >
+
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/user_dingdan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        lar:center_text="订    单"
+        lar:left_but="@mipmap/login_left">
+
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+    //三个标题
+    <LinearLayout
+        android:id="@+id/dingdan_three"
+        android:layout_below="@id/user_dingdan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:id="@+id/gift_jiaohuan"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jingcai_text"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="　竞猜　"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/jingcai"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/choujiang_text"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="　转盘　"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chongzhi"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/chongzhi_text"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="　充值　"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/choujiang"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/gift_jiaohuan_text"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="礼品兑换"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <!--
+        <LinearLayout
+            android:id="@+id/jiangli"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/jiangli_text"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="　奖励　"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        -->
+    </LinearLayout>
+    <ImageView
+        android:layout_below="@id/dingdan_three"
+        android:id="@+id/dingdan_imgtap"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/dingdan_tiaofu"
+        />
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/dingdan_imgtap"
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

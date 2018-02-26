@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/user_zengdong"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        lar:center_text="赠    送"
+        lar:left_but="@mipmap/login_left">
+
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+
+    //三个标题
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/dingdan_three"
+        android:layout_below="@id/user_zengdong"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:background="@color/home_orange"
+            android:id="@+id/zengsong_1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/gray"
+                android:id="@+id/gift_jiaohuan_text"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="赠    送"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/zengsong_2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/gray"
+                android:id="@+id/jingcai_text"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已 赠 送"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/zengsong_3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/gray"
+                android:id="@+id/chongzhi_text"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已 收 到"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="5dp"
+            android:layout_below="@id/dingdan_three"
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

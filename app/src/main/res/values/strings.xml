@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">竞猜夺宝</string>
+    <string name="pk_shi">疯狂赛车</string>
+    <string name="pk_shi_role">疯狂赛车规则</string>
+    <string name="pk_shi_dingdan">疯狂赛车订单</string>
+    <string name="hero_dingdan">英雄订单</string>
+    <string name="hero_guess">英雄竞猜</string>
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="suggess_describe">请详细描述您遇到的问题，有助于我们快速定位并解决问题，或留下您宝贵的建议或意见，我们会认真进行评估！</string>
+
+</resources>

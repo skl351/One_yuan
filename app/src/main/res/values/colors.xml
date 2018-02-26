@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="home_orange">#F96401</color>
+    <color name="hero_ok_button">#071C30</color>
+    <color name="guess_jindou_orange">#FDDF66</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#888</color>
+    <color name="kjqs">#043E22</color>
+    <color name="red">#DE1D1D</color>
+    <color name="main_text">#615f53</color>
+    <color name="main_hang">#e5b262</color>
+    <color name="home_bottom_back">#6C6B6B</color>
+    <color name="login_back">#EDEDED</color>
+    <color name="next_but">#F04517</color>
+    <color name="tiaokuan_blue">#4DC4FA</color>
+    <color name="home_black">#292929</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="youdianhui_back">#F3F0EA</color>
+    <color name="yigehuadong">#FFB65F</color>
+    <color name="blue">#0096F9</color>
+    <color name="touming">#00000000</color>
+    <color name="touming2">#88DE1D1D</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="hero_quxiao_button">#767676</color>
+    <color name="hero_black">#111216</color>
+    <color name="talk_back">#EBECF6</color>
+    <color name="talk_send">#B4C4DF</color>
+    <color name="luebai">#ddd</color>
+    <color name="xiao_gray">#666</color>
+    <color name="big_xiao_gray">#999</color>
+</resources>

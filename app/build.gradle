@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.yiyuangou.android.one_yuan"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 20
+        versionName "1.2.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    signingConfigs {
+        debug {
+//            keyAlias 'hui.keystore'
+//            keyPassword '0574hy'
+//            storeFile file('E:\\skl\\stiodworkspace\\Hui.keystore')
+//            storePassword '0574hy'
+//            keyAlias 'hui.keystore'
+//            keyPassword '0574hy'
+//            storeFile file('D:\\xiangmuqianmin\\Hui.keystore')
+//            storePassword '0574hy'
+        }
+        releaseConfig {}
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile files('libs/android-async-http-1.4.3.jar')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile files('libs/httpcore-4.3.2.jar')
+    compile files('libs/ZxingScanner.jar')
+    compile files('libs/libammsdk.jar')
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile files('libs/GifView.jar')
+    compile 'com.github.zhaokaiqiang.klog:library:1.5.0'
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/jingcai_kjrq_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+
+            android:id="@+id/jingcai_kjrq"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@drawable/cri_white_but"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="@drawable/cri_graf_but"
+            android:layout_width="40dp"
+            android:layout_height="60dp">
+            <TextView
+                android:id="@+id/digndan_jishiqi"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/quanbu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/hmmc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:id="@+id/jingcai_xiazhu_qs"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:layout_toRightOf="@id/jingcai_xiazhu_qs"
+                android:gravity="center"
+                android:id="@+id/jingcai_xiazhu_qs_text"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="12sp"
+                android:text="期"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_below="@id/jingcai_xiazhu_qs"
+                android:id="@+id/jingcai_xiazhu_jd"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:layout_toRightOf="@id/jingcai_xiazhu_jd"
+                android:layout_below="@id/jingcai_xiazhu_qs"
+                android:gravity="center"
+                android:id="@+id/jingcai_xiazhu_jd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="12sp"
+                android:text="金豆"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/jingcai_xiazhu_jiangtou"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="12dp"
+            android:layout_height="18dp"
+            android:background="@mipmap/kaijiang"/>
+        <TextView
+            android:id="@+id/jingcai_zhongjiang_shifou"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/jingcai_xiazhu_jiangtou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

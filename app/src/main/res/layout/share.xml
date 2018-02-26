@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="敬请期待..."/>
+
+  <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+      android:id="@+id/oen_buy_topbar"
+      android:layout_height="50dp"
+      android:layout_width="match_parent"
+      lar:center_text="一元夺宝">
+  </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+
+    <WebView
+        android:layout_marginBottom="50dp"
+        android:id="@+id/oen_buy_web"
+        android:layout_below="@id/oen_buy_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+
+</RelativeLayout>

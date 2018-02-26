@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@mipmap/all_guess_back">
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/kaijiang_topbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        lar:center_text="开奖期数"
+        lar:left_but="@mipmap/login_left">
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="期数"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="开奖号码"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="和值"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="大小"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="单双"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="更多"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <com.yiyuangou.android.one_yuan.page4.PullToRefreshLayout
+
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.yiyuangou.android.one_yuan.page4.PullableGridView
+
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="1"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="15dp" />
+
+        <include layout="@layout/load_more" />
+
+    </com.yiyuangou.android.one_yuan.page4.PullToRefreshLayout >
+
+
+
+</LinearLayout>

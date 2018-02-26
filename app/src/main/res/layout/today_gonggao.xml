@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/all_guess_back">
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/gonggao_topbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        lar:center_text="公告"
+        lar:left_but="@mipmap/login_left">
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:background="@drawable/biankuang_white_qs"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:id="@+id/gonggao_neirong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

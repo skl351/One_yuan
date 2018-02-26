@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/all_task_topbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        lar:center_text="任    务"
+        lar:left_but="@mipmap/login_left">
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+   <ScrollView
+       android:layout_below="@id/all_task_topbar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           >
+           <TextView
+               android:id="@+id/task_linshi"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="今日任务推荐"
+               android:textColor="@color/white"
+               android:textSize="20sp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="10dp"/>
+           <RelativeLayout
+               android:layout_centerHorizontal="true"
+               android:id="@+id/rentujieshao"
+               android:background="@drawable/cri_askt_blue_but"
+               android:paddingTop="5dp"
+               android:paddingBottom="5dp"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:layout_below="@id/task_linshi"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textColor="@color/white"
+                   android:text="任务金豆只限于竞猜不能用于赠送和兑换"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_below="@id/rentujieshao"
+               android:id="@+id/task_rect"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+
+           </LinearLayout>
+
+
+       </RelativeLayout>
+   </ScrollView>
+
+
+</RelativeLayout>

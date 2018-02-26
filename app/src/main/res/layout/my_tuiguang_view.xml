@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/tui_back_topbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        lar:center_text="如何收益"
+        lar:left_but="@mipmap/login_left">
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+
+    <TextView
+        android:id="@+id/tuiguang_text"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

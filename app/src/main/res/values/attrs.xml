@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="logandreg">
+        <attr name="left_but" format="reference"/>
+        <attr name="center_text" format="string"/>
+        <attr name="right_but" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="small_ball">
+        <attr name="text_name" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="input_border">
+        <attr name="int_lef" format="reference"/>
+        <attr name="int_center" format="string"/>
+        <attr name="int_rig" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="auto3d">
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <!--自定义MLImageView的属性-->
+    <declare-styleable name="MLImageView">
+        <attr name="press_alpha" format="integer" />
+        <attr name="press_color" format="color" />
+        <attr name="radius" format="dimension"/>
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color"/>
+        <attr name="shape_type" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="rectangle" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

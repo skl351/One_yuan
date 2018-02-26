@@ -1,0 +1,16 @@
+{"bankerCm":[
+{"value":6000,"uuid":"17eccf9f2f8545808f6eb6b25981065c","dw":"6千","kg":"1","type":"1"},
+{"value":600000,"uuid":"aafde93fa49b4ed1a629ebc67df7ec56","dw":"60万","kg":"1","type":"1"},
+{"value":60000,"uuid":"f3315e24df734f418a68fb0d42036677","dw":"6万","kg":"1","type":"1"}],"result":"获取成功","bankerBs":[
+{"value":1,"uuid":"3bee55dfbe1544f890daed2537f97d8e","dw":"1倍","kg":"1","type":"2"},
+{"value":8,"uuid":"4736f065a92e49c88f58fc5ab2e1e7e2","dw":"8倍","kg":"1","type":"2"},
+{"value":2,"uuid":"4c29a4180c6a456b9e0eeda295e27c1a","dw":"2倍","kg":"1","type":"2"},
+{"value":10,"uuid":"676c07a9469d4243ab549bba95a834cf","dw":"10倍","kg":"1","type":"2"},
+{"value":3,"uuid":"7e0f031ae54c44b7bb7ea5ee30b5c2fd","dw":"3倍","kg":"1","type":"2"},
+{"value":5,"uuid":"fd209aa92a6b468a8902e41a3012e5c9","dw":"5倍","kg":"1","type":"2"}],"status":"true","bankerQs":[
+{"value":1,"uuid":"007a13736a304a5ca8bb27328a1271f2","dw":"1期","kg":"1","type":"3"},
+{"value":4,"uuid":"3dcd17f72833425687ba002077365a97","dw":"4期","kg":"1","type":"3"},
+{"value":2,"uuid":"9b265b58af364c1ea3621603a18243ee","dw":"2期","kg":"1","type":"3"},
+{"value":5,"uuid":"c74e4cc8871246f3845dc4dc14a66365","dw":"5期","kg":"1","type":"3"},
+{"value":3,"uuid":"decb66ea0ade416ba99302f16a076a37","dw":"3期","kg":"1","type":"3"}]}
+08-01 21:39:54.893 3180-3180/com.yiyuangou.android.one_yuan W/System.err:

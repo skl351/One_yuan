@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/item_gift_send_img_big"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/item_gift_send_img_small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/gift_send_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:textColor="@color/red"
+           android:id="@+id/gifr_send_jd"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="金豆："/>
+       <TextView
+           android:textColor="@color/red"
+           android:id="@+id/gifr_send_jd_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+
+
+</LinearLayout>

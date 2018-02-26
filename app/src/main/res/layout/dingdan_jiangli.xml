@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <com.yiyuangou.android.one_yuan.page4.PullToRefreshLayout
+        android:background="#f3efe7"
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.yiyuangou.android.one_yuan.page4.PullableGridView
+
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="1"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"/>
+
+        <include layout="@layout/load_more" />
+
+    </com.yiyuangou.android.one_yuan.page4.PullToRefreshLayout >
+    <RelativeLayout
+        android:id="@+id/xiangyaotoum"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请稍等..."
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/zhanwushuju"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/zhentide_ic_tupian"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/no_shuju"/>
+        <TextView
+            android:gravity="center"
+            android:layout_alignTop="@id/zhentide_ic_tupian"
+            android:layout_toRightOf="@id/zhentide_ic_tupian"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="暂无数据..."
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

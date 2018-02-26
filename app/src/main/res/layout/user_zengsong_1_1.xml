@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:background="@color/login_back">
+
+    <com.yiyuangou.android.one_yuan.zidingyi_view.logandreg
+        android:id="@+id/zengsong1_1_topbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        lar:center_text="赠   送"
+        lar:left_but="@mipmap/login_left">
+    </com.yiyuangou.android.one_yuan.zidingyi_view.logandreg>
+    <ImageView
+        android:id="@+id/user_present1_1_datupian_img"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/zengsong1_1_topbar"
+        android:background="@mipmap/user_present1_1_datupian"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_below="@id/user_present1_1_datupian_img"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:id="@+id/zengsong_edit_phone"
+            android:layout_marginLeft="30dp"
+           android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="请输入赠送对象手机号码"
+            android:textColor="@color/gray"/>
+        <ImageView
+            android:id="@+id/tongxunlu"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/user_present1_1_xiaotubiao"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/haohuadazhuanjie"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/user_zengsong_1_1_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/user_zengsong_1_1_name"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="豪华大钻戒"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金豆："
+                    android:textColor="@color/red"/>
+                <TextView
+                    android:id="@+id/user_zengsong_1_1_money"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000"
+                    android:textColor="@color/red"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/haohuadazhuanjie"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <Button
+                android:layout_centerInParent="true"
+                android:background="@mipmap/jianhao"
+                android:id="@+id/jianhao"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/num"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <Button
+                android:layout_centerInParent="true"
+                android:background="@mipmap/jiahao"
+                android:id="@+id/jiahao"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/user_zengsong_1_1_but"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="立即赠送"
+        android:background="@drawable/button_skin"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_back">
+
+
+
+    <com.yiyuangou.android.one_yuan.zidingyi_view.input_border
+        android:id="@+id/register1_phone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/register_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        lar:int_center="请输入您的手机号码"
+        lar:int_lef="@mipmap/phone"
+        lar:int_rig="@mipmap/delete"
+        >
+    </com.yiyuangou.android.one_yuan.zidingyi_view.input_border>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/register1_next"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/register1_phone"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="@color/white"
+        android:text="下一步"
+        android:textSize="14sp"
+        android:background="@drawable/button_skin"
+        />
+    <RelativeLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/register1_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/register_kuang"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/register_ok"/>
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/register_kuang"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已阅读并同意“"/>
+            <TextView
+                android:id="@+id/register_tiaokuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用条款和隐私政策"
+
+                android:textColor="@color/tiaokuan_blue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="”"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/please_wait"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请稍等..."
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yiyuangou.android.one_yuan">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application android:name=".MyApplication"
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask" android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".laun_activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".web.home_page_4web" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hreo.hero_kaicai_xiangq" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.gonggao.all_gonggao" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.gonggao.more_gonggao" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.gonggao.Today_gonggao" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_suggestion_ceshi" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hreo.guize_hero" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hreo.hero_dingdan_xiangq" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hreo.hero_jingcaidingdan" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hreo.more_qs_hero" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.pk_ten.guize_jingcai_pk" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hreo.guess_hero" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hero2.guess_hero2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hero2.guize_hero2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hero2.hero_dingdan_xiangq2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hero2.hero_jingcaidingdan2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hero2.hero_kaicai_xiangq2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.guess_hero2.more_qs_hero2" android:screenOrientation="portrait"/>
+
+        <activity android:name=".page1.pk_ten.jingcai_dingdan_xiangq2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.pk_ten.click_jingcaidingdan2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.more_qs_pk" android:screenOrientation="portrait"/>
+        <activity android:name=".Pay.pay_page2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.pk_ten.jincai_order2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.pk_ten.pk_ten" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.my_tuiguanggonggao" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.mytuiguan_huiyuan" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.myself_jiangli_page" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.myjiangli" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.queren_shouhuodizhi_zhuanp" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.huanlegou.fanjiang_jiugong" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.huanlegou.zhuanpan" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.home_paihangbang.guizhe" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.CreateActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_self_open" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.gift_send.queren_shouhuodizhi" android:screenOrientation="portrait"
+            />
+        <activity android:name=".page1.gift_send.gift_send_activity" android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <activity android:name=".page1.all_guess.more_qs" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.about_class" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.gift_send.gift_send_v_xiangq" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.guize_jingcai" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.jingcai_dingdan_xiangq" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_shouhuodizhi_xiugai" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_touxiang_cunfang" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_login" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.more_qs2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.guess_open3" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_forgot" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_register" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.myself_register_tiaokuan" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_modify" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.guess" android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+
+        <activity android:name=".page4.user_shouhuo" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.jincai_order" android:screenOrientation="portrait"/>
+        <activity android:name=".Pay.pay_page" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.huanlegou.zhuanpan_guize" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.guess_caihao" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.my_dingdan" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".page1.all_guess.guess_open" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.guess_open2" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_guess.click_jingcaidingdan" android:screenOrientation="portrait"/>
+        <activity android:name=".Pay.pay_wangye" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_suggestion" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_chongzhi" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.yiyuangou.yiyuan_gou_web" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.all_task_back.all_task" android:screenOrientation="portrait"/>
+        <activity android:name=".page1.home_paihangbang.home_paiming" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_zengdong_big" android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <activity android:name=".page4.user_zengsong_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".page4.user_forgot4" android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+    </application>
+
+</manifest>
